@@ -26,10 +26,11 @@ setIndicator("#ccc");
 //set passwordLength
 function handleSlider() {
     inputSlider.value = passwordLength;
+    lengthDisplay.innerText = passwordLength;
+    //or kuch bhi karna chahiye ? - HW
     const min = inputSlider.min;
     const max = inputSlider.max;
-  
-    inputSlider.style.backgroundSize = ( (passwordLength - min)*100/(max - min)) + "% 100%";
+    inputSlider.style.backgroundSize = ( (passwordLength - min)*100/(max - min)) + "% 100%"
 }
 
 function setIndicator(color) {
@@ -141,7 +142,7 @@ inputSlider.addEventListener('input', (e) => {
 copyBtn.addEventListener('click', () => {
     if(passwordDisplay.value)
         copyContent();
-});
+})
 
 generateBtn.addEventListener('click', () => {
     //none of the checkbox are selected
@@ -159,6 +160,7 @@ generateBtn.addEventListener('click', () => {
     //remove old password
     password = "";
 
+  
 
     let funcArr = [];
 
