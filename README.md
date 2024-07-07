@@ -1,5 +1,7 @@
 <img width="1710" alt="PASSGEN" src="https://github.com/Deepanshu-mani/PASS-GEN/assets/144232598/e4f6c8a3-2ff6-49bb-8d8f-8abbb3a4b528">
+## Live Demo
 
+Check out the live demo: [PASS-GEN](https://pass-gen-opal.vercel.app/)
 # PASS-GEN
 
 A simple and customizable password generator to create strong and secure passwords.
